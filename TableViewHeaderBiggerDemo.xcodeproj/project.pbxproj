@@ -13,6 +13,7 @@
 		FF1F06F41D2D1126008877DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1F06F21D2D1126008877DC /* LaunchScreen.storyboard */; };
 		FF1F06FF1D2D1126008877DC /* TableViewHeaderBiggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1F06FE1D2D1126008877DC /* TableViewHeaderBiggerDemoTests.m */; };
 		FF1F070A1D2D1126008877DC /* TableViewHeaderBiggerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1F07091D2D1126008877DC /* TableViewHeaderBiggerDemoUITests.m */; };
+		FF1F07191D2D113B008877DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1F07181D2D113B008877DC /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		FF1F07051D2D1126008877DC /* TableViewHeaderBiggerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewHeaderBiggerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1F07091D2D1126008877DC /* TableViewHeaderBiggerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderBiggerDemoUITests.m; sourceTree = "<group>"; };
 		FF1F070B1D2D1126008877DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1F07171D2D113B008877DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF1F07181D2D113B008877DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 			children = (
 				FF1F06ED1D2D1126008877DC /* AppDelegate.h */,
 				FF1F06EE1D2D1126008877DC /* AppDelegate.m */,
+				FF1F07171D2D113B008877DC /* ViewController.h */,
+				FF1F07181D2D113B008877DC /* ViewController.m */,
 				FF1F06F01D2D1126008877DC /* Assets.xcassets */,
 				FF1F06F21D2D1126008877DC /* LaunchScreen.storyboard */,
 				FF1F06F51D2D1126008877DC /* Info.plist */,
@@ -261,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1F07191D2D113B008877DC /* ViewController.m in Sources */,
 				FF1F06EF1D2D1126008877DC /* AppDelegate.m in Sources */,
 				FF1F06EC1D2D1126008877DC /* main.m in Sources */,
 			);
