@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        xcodeBuild(allowFailingBuildResults: true)
+      }
+    }
+
   }
 }
