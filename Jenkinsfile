@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('xcode') {
       steps {
-        xcodeBuild(allowFailingBuildResults: true)
+        xcodeBuild(allowFailingBuildResults: true, cleanBeforeBuild: true, copyProvisioningProfile: true)
       }
     }
 
