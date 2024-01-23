@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('f') {
+    stage('param') {
       steps {
-        xcodeBuild()
+        sleep 1
       }
     }
 
